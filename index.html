@@ -5,8 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NectAdmin</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/assets/css/nect.css">
 </head>
 <body>
-    <h1 class="text-red-500 font-bold">Hello There</h1>
+    <header class="bg-white w-full h-16 flex items-center">
+          <div class="container mx-auto flex justify-between items-center gap-8">
+              <div class="icons-and-menu flex items-center gap-14">
+                <div class="icons">
+                    <img src="./src/assets/images/nectadmin.png" alt="nect-icon-logo" class="h-10 flex items-center">
+                </div>
+                <div class="menu">
+                   <ul class="flex gap-4 text-slate-500">
+                      <li>
+                          Features
+                      </li>
+                      <li>
+                          Components
+                      </li>
+                      <li>
+                          Download
+                      </li>
+                      <li>
+                          Docs
+                      </li>
+                      <li>
+                          Supports
+                      </li>
+                   </ul>
+                </div>
+              </div>
+              <div class="demo-and-github gap-4 flex items-center">
+                  <ion-icon name="logo-github" size="large" class="fill-[#4f709c]"></ion-icon>
+                  <div class="demo-btn bg-[#4f709c] text-white py-2 px-4 rounded-md font-semibold">
+                      Demo
+                    </div>
+              </div>
+            </div>
+    </header>
+    <main class="bg-[#f3f4f6] w-full h-[100vh] pt-16 relative overflow-hidden">
+        <div class="container mx-auto flex justify-center"> 
+          <div class="hero pt-12 w-3/4 text-center">
+             <h1 class="font-extrabold text-5xl bg-gradient-to-r from-[#4f709c] to-blue-500 bg-clip-text text-transparent">Open-Source Tailwind CSS Admin Dashboard Template</h1>
+             <p class="pt-4 text-slate-600">Nectadmin is a cutting-edge, responsive admin dashboard built with the power of Tailwind CSS, designed to simplify the management and monitoring of your web applications. With its sleek, modern aesthetic and user-friendly interface</p>
+          </div>
+
+        </div>
+        <img src="https://tailadmin.com/images/hero-bg-grid.svg" class="absolute" alt="grid">
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
