@@ -23,7 +23,7 @@ How To Install
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+How To Using.
 * 
   ```sh
   npm install 
@@ -37,7 +37,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/Connexsoft-Team/nectadmin.git
    ```
-2. Install NPM packages
+2. Install NPM packages ( TailwindCSS )
    ```sh
    npm install
    ```
